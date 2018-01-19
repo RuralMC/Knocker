@@ -1,0 +1,9 @@
+main: com.ruralmc.knocker.Knocker
+name: Knocker
+version: 0.0.1-D-1
+author: Chaka
+description: A minigame for RuralMC
+commands:
+  kc:
+    usage: /<command>
+    description: Main Command
