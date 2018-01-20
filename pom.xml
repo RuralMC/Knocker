@@ -6,7 +6,7 @@
 
     <groupId>com.ruralmc.knocker</groupId>
     <artifactId>Knocker</artifactId>
-    <version>0.0.1-D-1</version>
+    <version>0.1.0-A-48</version>
 
     <repositories>
         <repository>
