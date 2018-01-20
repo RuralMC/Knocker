@@ -23,7 +23,7 @@ public class PlayerManager {
     public static void giveStick(Player p) {
         ItemStack stick = new ItemStack(Material.STICK, 1);
         ItemMeta stickMeta = stick.getItemMeta();
-        stickMeta.addEnchant(Enchantment.KNOCKBACK, 20, true);
+        stickMeta.addEnchant(Enchantment.KNOCKBACK, 100, true);
         stickMeta.setDisplayName(ChatColor.AQUA + "" + ChatColor.BOLD + "Knocker");
         stickMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         ArrayList<String> lore = new ArrayList<String>();
